@@ -32,3 +32,8 @@ CHANGE COLUMN `id` `id` INT NOT NULL ;
 ALTER TABLE `spring`.`menu`
 ADD COLUMN `order` INT NULL DEFAULT 0 AFTER `use_yn`,
 CHANGE COLUMN `use_yn` `use_yn` VARCHAR(45) NULL DEFAULT 'N' ;
+
+ALTER TABLE `spring`.`menu`
+CHANGE COLUMN `id` `id` VARCHAR(10) NOT NULL ,
+CHANGE COLUMN `top_id` `top_id` VARCHAR(10) NULL DEFAULT NULL ,
+CHANGE COLUMN `use_yn` `use_yn` VARCHAR(1) NULL DEFAULT 'N' ;
