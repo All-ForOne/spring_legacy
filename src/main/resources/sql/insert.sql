@@ -1,0 +1,3 @@
+INSERT INTO `menu` (`id`, `name`, `reg_dt`, `mod_dt`, `use_yn`, `orders`) VALUES ('100', '번호 생성기', '2022-02-03', '2022-02-03', 'Y', '10');
+INSERT INTO `menu` (`id`, `name`, `top_id`, `reg_dt`, `mod_dt`, `use_yn`, `orders`) VALUES ('200', '나의 로또', '', '2022-02-03', '2022-02-03', 'Y', '20');
+INSERT INTO `menu` (`id`, `name`, `top_id`, `reg_dt`, `mod_dt`, `use_yn`, `orders`) VALUES ('300', '당첨 번호', '', '2022-02-03', '2022-02-03', 'Y', '30');
