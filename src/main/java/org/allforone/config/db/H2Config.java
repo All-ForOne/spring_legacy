@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @Profile("test")
-@EnableJpaRepositories
+@EnableJpaRepositories(basePackages = "org.allforone.spring.*")
 @EnableTransactionManagement
 public class H2Config extends DatabaseConfig {
 
