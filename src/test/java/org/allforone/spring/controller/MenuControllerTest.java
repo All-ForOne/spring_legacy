@@ -1,8 +1,8 @@
 package org.allforone.spring.controller;
 
-import org.allforone.AppConfig;
+import org.allforone.config.AppConfig;
 import org.allforone.spring.service.MenuService;
-import org.allforone.web.MvcConfig;
+import org.allforone.config.web.MvcConfig;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

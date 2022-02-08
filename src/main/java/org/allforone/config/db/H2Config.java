@@ -1,4 +1,4 @@
-package org.allforone;
+package org.allforone.config.db;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

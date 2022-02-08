@@ -1,4 +1,4 @@
-package org.allforone;
+package org.allforone.config.db;
 
 import com.mysql.cj.jdbc.Driver;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @Profile("default")
-@EnableJpaRepositories
+@EnableJpaRepositories(basePackages = "org.allforone.spring.*")
 @EnableTransactionManagement
 public class MysqlConfig extends DatabaseConfig {
 
